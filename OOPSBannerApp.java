@@ -1,9 +1,9 @@
 /**
  * OOPS Banner Application
- * UC4 - Array & Loops Implementation
+ * UC5 - Array Initialization with String.join()
  *
  * @author Rishiraj Phukan
- * @version 4.0
+ * @version 5.0
  */
 
 public class OOPSBannerApp {
@@ -11,19 +11,12 @@ public class OOPSBannerApp {
     public static void main(String[] args) {
 
         String[] banner = {
-
             String.join("  ", "*****", "*****", "*****", "*****"),
-
             String.join("  ", "*   *", "*   *", "*   *", "*    "),
-
             String.join("  ", "*   *", "*   *", "*   *", "*    "),
-
             String.join("  ", "*   *", "*   *", "*****", "*****"),
-
             String.join("  ", "*   *", "*   *", "*    ", "    *"),
-
             String.join("  ", "*   *", "*   *", "*    ", "    *"),
-
             String.join("  ", "*****", "*****", "*    ", "*****")
         };
 
